@@ -31,17 +31,18 @@ header {
 
 .content{
 	color: black;
-	width: 80%;
+	width: 100%;
 	font-size: 0;
 	margin: 50px auto 50px;
 }
 
 .card{
-	width: 400px;
+	width: 380px;
 	height: 520px;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
 	margin-bottom: 50px;
 	padding: 45px 45px 70px;
 	box-shadow: 4px 4px 5px rgba(250, 50, 50, .4);

@@ -30,10 +30,11 @@ header {
 }
 
 .content{
+	text-align: center;
 	color: black;
 	width: 100%;
 	font-size: 0;
-	margin: 50px auto 50px;
+	margin: 50px auto 50px auto;
 }
 
 .card{

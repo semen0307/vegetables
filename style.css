@@ -24,6 +24,7 @@ header {
 }
 
 .nav {
+	z-index: 999;
 	position: fixed;
 	padding-right: 40px;
     display: flex;

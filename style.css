@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, p, a {
+body, h1, h2, h3, h4, p, a, nav {
   font-size: 100%;
   font-weight: normal;
   margin: 0;
@@ -6,6 +6,11 @@ body, h1, h2, h3, h4, p, a {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: black;
 }
 
 header {
@@ -17,6 +22,39 @@ header {
 	height: 500px;
 	box-shadow: 2px 2px 5px gray;
 }
+
+.nav {
+	position: fixed;
+	padding-right: 40px;
+    display: flex;
+    display-decoration: row;
+    justify-content: space-between;
+	background-color: #DEDEDE;
+	padding: 20px 50px 20px;
+	box-shadow: 2px 2px 5px gray;
+	width: 100%
+}
+
+.nav-left {
+	display: inline-block;
+	text-align: left;
+	font-size: 18px;
+	color: black;
+}
+
+.nav-right {
+	display: inline-block;
+	text-align: right;
+	font-size: 18px;
+	color: black;
+}
+
+.nav-phone {
+  padding-left: 25px;
+  background-image: url("photo/phone.svg");
+  background-repeat: no-repeat;
+}
+
 
 .flex {
 	width: 100%;

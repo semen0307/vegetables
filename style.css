@@ -36,8 +36,12 @@ header {
 	width: 100%
 }
 
+.nav-menu {
+	display: flex;
+}
+
 .nav-left {
-	display: inline-block;
+	align-self: left;
 	text-align: left;
 	font-size: 18px;
 	color: black;
@@ -56,6 +60,48 @@ header {
   background-repeat: no-repeat;
 }
 
+.menu-content {
+    padding: 0 0 0 20px;
+}
+.collapsible-menu {
+    background-color: #DEDEDE;
+    padding: 0px 5px;
+}
+.collapsible-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.collapsible-menu a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.collapsible-menu label {
+ font-size: 18px;
+ display: block;
+ cursor: pointer;
+ background: url("img/menu.svg") no-repeat left center;
+ background-size: 15px;
+ padding: 0 0 0 20px;
+}
+input#menu {
+ display: none;
+}
+
+.menu-content {
+ max-height: 0;
+ overflow: hidden; 
+ padding: 0 0 0 20px;
+}
+/* Эффект переключения*/
+input:checked ~ label {
+ background-image: url(img/close.svg);
+ background-size: 15px;
+}
+input:checked ~ .menu-content {
+ max-height: 100%;
+}
 
 .flex {
 	width: 100%;

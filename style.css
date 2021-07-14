@@ -24,6 +24,7 @@ header {
 }
 
 .nav {
+	text-align: left;
 	z-index: 999;
 	position: fixed;
     display: flex;
@@ -86,6 +87,32 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
 } 
+
+.div-button{
+	display: flex;
+	justify-content: center;
+	margin-top: 5px;
+}
+
+.div-button div:first-child{
+	margin-right: 10px;
+}
+
+.button {
+	font-size: 18px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 3px;
+	border-radius: 5px;
+	background: #DEDEDE;
+}
+
+.button:hover{
+	background: #F3F3F3;
+	color:black;
+	box-shadow: 1px 5px 10px -5px black;
+}
 
 .footer{
 	width: 100%;
